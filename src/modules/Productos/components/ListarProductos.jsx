@@ -2,14 +2,6 @@ import '../utils/productos.css'
 import React, { useState } from "react";
 
 
-const BotonMostrarLista = ({ onClick, mostrarLista }) => {
-  return (
-    <button className="boton-toggle" onClick={onClick}>
-      {mostrarLista ? "Volver" : "Mostrar Productos"}
-    </button>
-  );
-};
-
 export default function ListarProductos({ productos = [] }) {
   const [mostrarLista, setMostrarLista] = useState(false);
 

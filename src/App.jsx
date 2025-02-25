@@ -1,11 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Bienvenida from './modules/Users/components/Bienvenida'
 import ListarProductos from './modules/Productos/components/ListarProductos'
-import Contador from './modules/contador/hooks/Contador'
-
+import Contador from './modules/Contador/components/Contador'
+import FormularioInteractivo from './modules/Formulario/components/FormularioInteractivo'
 
 function App() {
 
@@ -24,6 +21,8 @@ function App() {
       <ListarProductos productos={productos}/>
       <br/>
       <Contador/>
+      <br />
+      <FormularioInteractivo/>
     </>
   )
 }
