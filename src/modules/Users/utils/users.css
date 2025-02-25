@@ -1,0 +1,17 @@
+.bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  
+  .bienvenida-texto {
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
