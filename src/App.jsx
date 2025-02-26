@@ -1,8 +1,11 @@
 import './App.css'
-import Bienvenida from './modules/Users/components/Bienvenida'
-import ListarProductos from './modules/Productos/components/ListarProductos'
-import Contador from './modules/Contador/components/Contador'
-import FormularioInteractivo from './modules/Formulario/components/FormularioInteractivo'
+
+import Bienvenida from './ejercicios_modulo_5/Users/components/Bienvenida'
+import ListarProductos from './ejercicios_modulo_5/Productos/components/ListarProductos'
+import Contador from './ejercicios_modulo_5/Contador/components/Contador'
+import FormularioInteractivo from './ejercicios_modulo_5/Formulario/components/FormularioInteractivo'
+import UserList from './ejercicios_modulo_5/Consumir_api/components/Userlist'
+
 
 function App() {
 
@@ -23,6 +26,8 @@ function App() {
       <Contador/>
       <br />
       <FormularioInteractivo/>
+      <br/>
+      <UserList/>
     </>
   )
 }
